@@ -1,31 +1,30 @@
-//#include<iostream>
-//using std::cout;
-//using std::endl;
-//using std::cin;
-//#include <iostream>
-//
-//// Ä£°åº¯Êı
-//template <typename T>
-//T add(T a, T b) {
-//    return a + b;
-//}
-//
-//int main() {
-//    // ÕûÊıÀàĞÍ
-//    int intResult = add(5, 10); // T ±»ÍÆµ¼Îª int
-//    std::cout << "Int result: " << intResult << std::endl;
-//
-//    // Ë«¾«¶È¸¡µãÊıÀàĞÍ
-//    double doubleResult = add(5.5, 10.2); // T ±»ÍÆµ¼Îª double
-//    std::cout << "Double result: " << doubleResult << std::endl;
-//
-//    // ×Ö·û´®ÀàĞÍ
-//    std::string strResult = add(std::string("Hello, "), std::string("World!")); // T ±»ÍÆµ¼Îª std::string
-//    std::cout << "String result: " << strResult << std::endl;
-//
-//    return 0;
-//}
-//
-//
-////TÎªÕ¼Î»·û£¬ÓÉ±àÒëÆ÷×Ô¶¯Ê¶±ğ±äÁ¿µÄÀàĞÍ£¬¶øÄ£°æ²»Ö»ÄÜÓÃÓÚ¼ÆËã£¬»¹¿ÉÒÔÓÃÓÚËã·¨£¬Êı¾İ½á¹¹£¬º¯Êı¶ÔÏó
-//// ºÍ»Øµ÷£¬ ÀàĞÍÌØÕ÷ºÍÀàĞÍİÍÈ¡£¬±ä³¤²ÎÊıÄ£°å--ÓĞµãĞËÈ¤£¬¹¦ÄÜºÜ¶à£¬
+#include<iostream>
+using std::cout;
+using std::endl;
+using std::cin;
+#include <iostream>
+
+// æ¨¡æ¿å‡½æ•°
+template <typename T>
+T add(T a, T b) {
+    return a + b;
+}
+
+int main() {
+    // æ•´æ•°ç±»å‹
+    int intResult = add(5, 10); // T è¢«æ¨å¯¼ä¸º int
+    std::cout << "Int result: " << intResult << std::endl;
+
+    // åŒç²¾åº¦æµ®ç‚¹æ•°ç±»å‹
+    double doubleResult = add(5.5, 10.2); // T è¢«æ¨å¯¼ä¸º double
+    std::cout << "Double result: " << doubleResult << std::endl;
+
+    // å­—ç¬¦ä¸²ç±»å‹
+    std::string strResult = add(std::string("Hello, "), std::string("World!")); // T è¢«æ¨å¯¼ä¸º std::string
+    std::cout << "String result: " << strResult << std::endl;
+
+    return 0;
+}
+
+//Tä¸ºå ä½ç¬¦ï¼Œç”±ç¼–è¯‘å™¨è‡ªåŠ¨è¯†åˆ«å˜é‡çš„ç±»å‹ï¼Œè€Œæ¨¡ç‰ˆä¸åªèƒ½ç”¨äºè®¡ç®—ï¼Œè¿˜å¯ä»¥ç”¨äºç®—æ³•ï¼Œæ•°æ®ç»“æ„ï¼Œå‡½æ•°å¯¹è±¡
+// å’Œå›è°ƒï¼Œ ç±»å‹ç‰¹å¾å’Œç±»å‹èƒå–ï¼Œå˜é•¿å‚æ•°æ¨¡æ¿--æœ‰ç‚¹å…´è¶£ï¼ŒåŠŸèƒ½å¾ˆå¤šï¼Œ
